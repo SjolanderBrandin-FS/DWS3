@@ -12,100 +12,107 @@
 </head>
 
 <body>
-  <main class="container">
-    <header class="py-3 bg-danger">
-      <h1>SjoTime Development</h1>
-      <div id="nav-container">
-        <p>Contact</p>
-        <p>About</p>
+  <main>
+    <header class="d-flex flex-row py-3 ">
+      <h1 id="page-title" class="justify-content-start mx-5 fs-3 ">SjoTime Development</h1>
+      <div id="nav-container" class="d-inline-flex justify-content-end">
+        <p class="mx-3"><a href="#">Contact</a></p>
+        <p class="mx-3"><a href="#">About</a></p>
       </div>
 
     </header>
 
     <body>
-      <div class="Section1 mt-5">
+      <div id="Section1" class="mt-5 mx-5">
         <h1>Company Mission</h1>
-        <div>
-          <h2>Our Goal</h2>
-          <p>
-            We aim to provide our customers with
-            the most efficient and effective, designs
-            and techniques that the industry has to
-            offer. We will not stop learning our craft,
-            and strive for customer perfection with
-            every project.
-          </p>
-          <h2>Our Motto</h2>
-          <p>
-            “The mind is furnished with ideas by experience alone” – John Locke
+        <div id="mission-container">
+          <div class="mission-heads">
+            <h2 class="mx-5 p-3">Our Goal</h2>
+            <h2 class="mx-5 p-3">Our Motto</h2>
+            <h2 class="mx-5 p-3">Our Touch</h2>
+          </div>
+          <div class="mission-para mx-3">
+            <p class="p-5">
+              We aim to provide our customers with
+              the most efficient and effective, designs
+              and techniques that the industry has to
+              offer. We will not stop learning our craft,
+              and strive for customer perfection with
+              every project.
+            </p>
+            <p class="py-3">
+              “The mind is furnished with ideas by experience alone”– John Locke
+              <br>
+              <br>
+              To us, this means that we value pulling
+              from personal experience when building
+              and designing a site, to ensure the best
+              user experience possible.
+            </p>
+            <p class="p-5">
+              Along with a smaller business feel, we
+              like to make sure we leave a long lasting
+              impression for our customers, by providing
+              the most detailed customer support and
+              inclusivity we can throughout the entire
+              process of working with us, from start to finish.
+            </p>
+          </div>
 
-            To us, this means that we value pulling
-            from personal experience when building
-            and designing a site, to ensure the best
-            user experience possible.
-          </p>
-          <h2>Our Touch</h2>
-          <p>
-            Along with a smaller business feel, we
-            like to make sure we leave a long lasting
-            impression for our customers, by providing
-            the most detailed customer support and
-            inclusivity we can throughout the entire
-            process of working with us, from start to finish.
-          </p>
         </div>
       </div>
-      <div class="Section2 mt-5">
+      <div id="Section2" class="mt-5 mx-5">
         <h1>Projects</h1>
-        <div id="ProjectImgContainer">
-          <div class="mt-3 bg-danger">
+        <div id="ProjectImgContainer" class="mx-5">
+          <div class="proj-img">
             <p class="fw-bold">eCommerce</p>
             <img src="#" alt="eCommerce page example">
           </div>
-          <div class="mt-3 bg-danger">
+          <div class="proj-img">
             <p class="fw-bold">Business</p>
             <img src="#" alt="Business page example">
           </div>
-          <div class="mt-3 bg-danger">
+          <div class="proj-img">
             <p class="fw-bold">Event</p>
             <img src="#" alt="Event page example">
           </div>
-          <div class="mt-3 bg-danger">
+          <div class="proj-img">
             <p class="fw-bold">Portfolio</p>
             <img src="#" alt="Portfolio page example">
           </div>
-          <div class="mt-3 bg-danger">
+          <div class="proj-img">
             <p class="fw-bold">Blog</p>
             <img src="#" alt="Blog page example">
           </div>
-          <div class="mt-3 bg-danger">
+          <div class="proj-img">
             <p class="fw-bold">Personal</p>
             <img src="#" alt="Personal page example">
           </div>
         </div>
 
       </div>
-      <div class="Section3 mt-5">
+      <div id="Section3" class="mt-5 mx-5">
         <h1>Let's Work Together</h1>
-        <p>'contact us with your idea or plans for a website'</p>
-        <form action="" method="get">
-          <div>
+        <form class="text-center my-3 mx-5 p-1" action="" method="get">
+          <h1 id="form-title">Site Idea Submission form</h1>
+          <p>'contact us with your idea or plans for a website'</p>
+          <div class="input">
             <label for="firstname"></label>
             <input type="text" name="firstname" id="firstname" placeholder="First Name..." required>
           </div>
-          <div>
+          <div class="input">
             <label for="lastname"></label>
             <input type="text" name="lastname" id="lastname" placeholder="Last Name..." required>
           </div>
-          <div>
+          <div class="d-inline-block">
             <label for="domain"></label>
             <input type="text" name="domain" id="domain" placeholder="Domain Name (If Applicable)">
           </div>
-          <div>
+          <div class="d-inline-block">
             <label for="email"></label>
             <input type="text" name="email" id="email" placeholder="Email..." required>
           </div>
-          <div id="description">
+          <div class="my-2">
             <label for="discription"></label>
             <input type="text" name="description" id="description" placeholder="Website Description..." required>
           </div>
@@ -115,7 +122,7 @@
       </div>
     </body>
     <footer>
-      <p>SjoTime Development</p>
+      <p class="text-center">SjoTime Development</p>
     </footer>
 
   </main>
